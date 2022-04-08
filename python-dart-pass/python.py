@@ -1,5 +1,6 @@
-def even_odd(x: int):
+def even_odd():
     nums = []
+    x = int(input("Enter X value: "))
 
     for i in range(x):
         num = int(input(""))
@@ -13,5 +14,5 @@ def even_odd(x: int):
         print(i)
 
 
-x = int(input("Enter X value: "))
-even_odd(x)
+even_odd()
+
